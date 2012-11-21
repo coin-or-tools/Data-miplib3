@@ -1,8 +1,5 @@
 * text=auto !eol
 /10teams.gz -text svneol=unset#application/x-gzip
-/AUTHORS -text
-/LICENSE -text
-/README -text
 /air03.gz -text svneol=unset#application/x-gzip
 /air04.gz -text svneol=unset#application/x-gzip
 /air05.gz -text svneol=unset#application/x-gzip
