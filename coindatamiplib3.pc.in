@@ -1,8 +1,9 @@
 prefix=@prefix@
-datadir=@datadir@/coin/Data/miplib3
+datarootdir=@datarootdir@
+datadir=@MIPLIB3_DATA_PUB@
 
 Name: Miplib3
-Description: MIPLIB3 models
+Description: Miplib3 models
 URL: https://projects.coin-or.org/svn/Data/miplib3
 Version: @PACKAGE_VERSION@
 Libs:
