@@ -661,10 +661,6 @@ CPPFLAGS
 LDFLAGS
 CFLAGS
 CC
-MIPLIB3_DATA_PUB
-MIPLIB3_PCFILES_PUB
-MIPLIB3_CFLAGS_PUB
-MIPLIB3_LFLAGS_PUB
 MAINT
 MAINTAINER_MODE_FALSE
 MAINTAINER_MODE_TRUE
@@ -3028,20 +3024,6 @@ fi
 
   MAINT=$MAINTAINER_MODE_TRUE
 
-
-
-
-# Initialise variables for Miplib3. All we're after here is the default data
-# directory for substitution in coindatamiplib3.pc.in.
-
-
-  MIPLIB3_LFLAGS_PUB=""
-
-  MIPLIB3_CFLAGS_PUB=""
-
-  MIPLIB3_PCFILES_PUB=""
-
-  MIPLIB3_DATA_PUB=\${datarootdir}/$PACKAGE_TARNAME
 
 
 

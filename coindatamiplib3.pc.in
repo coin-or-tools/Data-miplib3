@@ -1,6 +1,6 @@
 prefix=@prefix@
 datarootdir=@datarootdir@
-datadir=@MIPLIB3_DATA_PUB@
+datadir=${datarootdir}/@PACKAGE_TARNAME@
 
 Name: Miplib3
 Description: Miplib3 models
