@@ -8,8 +8,8 @@
 /bell5.gz -text svneol=unset#application/x-gzip
 /blend2.gz -text svneol=unset#application/x-gzip
 /cap6000.gz -text svneol=unset#application/x-gzip
-/coindatamiplib3-uninstalled.pc.in -text
 /coindatamiplib3.pc.in -text
+/compile -text
 /config.guess -text
 /config.sub -text
 /configure -text
