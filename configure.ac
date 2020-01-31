@@ -11,7 +11,7 @@
 #############################################################################
 
 AC_INIT([Miplib3],[trunk],[buildtools@list.coin-or.org],[coin-or-miplib3],
-	[https://projects.coin-or.org/BuildTools/])
+	[https://github.com/coin-or-tools/Data-miplib3])
 
 AC_COPYRIGHT([
 Copyright 2006 International Business Machines and others.

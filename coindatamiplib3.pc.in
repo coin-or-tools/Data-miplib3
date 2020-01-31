@@ -1,10 +1,11 @@
-prefix=@prefix@
+@COIN_RELOCATABLE_FALSE@prefix=@prefix@
+@COIN_RELOCATABLE_TRUE@prefix=${pcfiledir}/../..
 datarootdir=@datarootdir@
 datadir=${datarootdir}/@PACKAGE_TARNAME@
 
 Name: Miplib3
 Description: Miplib3 models
-URL: https://projects.coin-or.org/svn/Data/miplib3
+URL: https://github.com/coin-or-tools/Data-miplib3
 Version: @PACKAGE_VERSION@
 Libs:
 Cflags:
