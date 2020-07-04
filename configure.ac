@@ -9,7 +9,7 @@
 #                       Names and other basic things                        #
 #############################################################################
 
-AC_INIT([Miplib3],[trunk],[buildtools@list.coin-or.org],[coin-or-miplib3],
+AC_INIT([Miplib3],[devel],[buildtools@list.coin-or.org],[coin-or-miplib3],
 	[https://github.com/coin-or-tools/Data-miplib3])
 
 AC_COPYRIGHT([
@@ -25,7 +25,7 @@ AC_CONFIG_SRCDIR(configure.ac)
 
 # Do some generic initialization work.
 
-AC_COIN_INITIALIZE(Miplib3)
+AC_COIN_INITIALIZE
 
 # Check for libz. The hidden assumption is that if libz is present, code will
 # use it to read compressed (.gz) files. If it's not present, or disabled with
