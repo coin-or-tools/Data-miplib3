@@ -2,14 +2,13 @@
 # All Rights Reserved.
 # This file is distributed under the Eclipse Public License.
 
-
 # Author:  Andreas Waechter            IBM    2006-04-13
 
 #############################################################################
 #                       Names and other basic things                        #
 #############################################################################
 
-AC_INIT([Miplib3],[trunk],[https://github.com/coin-or-tools/Data-miplib3/issues/new],[coin-or-miplib3],[https://github.com/coin-or-tools/Data-miplib3])
+AC_INIT([Miplib3],[1.3.0],[https://github.com/coin-or-tools/Data-miplib3/issues/new],[coin-or-miplib3],[https://github.com/coin-or-tools/Data-miplib3])
 
 AC_COPYRIGHT([
 Copyright 2006 International Business Machines and others.
@@ -24,7 +23,7 @@ AC_CONFIG_SRCDIR(configure.ac)
 
 # Do some generic initialization work.
 
-AC_COIN_INITIALIZE(Miplib3)
+AC_COIN_INITIALIZE
 
 # Check for libz. The hidden assumption is that if libz is present, code will
 # use it to read compressed (.gz) files. If it's not present, or disabled with

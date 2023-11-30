@@ -2,16 +2,13 @@
 # All Rights Reserved.
 # This file is distributed under the Eclipse Public License.
 
-
 # Author:  Andreas Waechter           IBM    2006-04-13
 
 AUTOMAKE_OPTIONS = foreign
 
 ########################################################################
-#                List files that should be distributed                 #
+#                Set up installation and .pc file                      #
 ########################################################################
-
-EXTRA_DIST = $(EXAMPLE_DIST_FILES)
 
 datacoindir = $(datadir)/$(PACKAGE_TARNAME)
 
@@ -60,7 +57,7 @@ if COIN_VPATH_BUILD
 $(EXAMPLE_DIST_FILES):
 	@test -f $@  || $(LN_S) $(srcdir)/$@ $@
 
-MORE_PHONY = $(EXAMPLE_DIST_FILES)
+.PHONY: $(EXAMPLE_DIST_FILES)
 endif
 
 ########################################################################
@@ -85,6 +82,3 @@ uninstall-local:
 
 $(EXAMPLE_CLEAN_FILES):
 	gzip -d -c $(srcdir)/$@.gz > $@
-
-.PHONY: $(MORE_PHONY)
-
